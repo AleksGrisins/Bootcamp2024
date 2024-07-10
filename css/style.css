@@ -1,6 +1,59 @@
-.hihi {
-  background-color: red;
+.container {
+  border-radius: 3px;
+  padding: 20px 15px 15px 15px;
+  min-width: 150px;
+  width: 320px;
+  transition: ease-out, 3s;
+  background-color: white;
+  filter: drop-shadow(-2px 3px 6px rgb(82, 82, 82));
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.description {
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.btn {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.accept {
+  background-color: #0083fa;
   color: white;
-  width: 500px;
-  height: 250px;
+}
+
+.accept:hover {
+  background-color: #005bb1;
+}
+
+.reject:hover {
+  background-color: #929292;
+  color: white;
+}
+
+.cookie-settings {
+  display: block;
+  margin-top: 12px;
+  text-decoration: none;
+  color: #0083fa;
+  font-size: 14px;
+}
+
+.hidden {
+  transition: ease-out, 0.3s;
+  opacity: 0.1;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
 }
